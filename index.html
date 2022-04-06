@@ -149,7 +149,7 @@ https://www.tooplate.com/view/2115-marvel
                             <div class="img-fluid" >
                               <img src="images/project/flipupdemo.gif" class="img-size" alt="project image">
                               <br>
-                              <div class="img-text-size" >Mongoose, MongoDB, Express.js, Node.js, Validator.js,
+                              <div class="img-text-size" >Competitive Multiplayer Flash Card Learning Platform. Mongoose, MongoDB, Express.js, Node.js, Validator.js,
                                 JavaScript, React, Redux, HTML, CSS. 
                                 <a target="_blank" href="https://github.com/amandac3600/Flip_Up" >View on GitHub</a> or 
                                 <a target="_blank" href="https://flipup.herokuapp.com/#/" >Try the demo</a>
@@ -262,9 +262,9 @@ https://www.tooplate.com/view/2115-marvel
 
                 <ul class="social-links">
                      <li><a target="_blank" href="https://www.facebook.com/ACSC.CIMI/" class="uil uil-facebook" data-toggle="tooltip" data-placement="left"></a></li>
-                     <li><img class="my-uil" src="images/project/github.svg" ></li>
-                   <li><img class="my-uil" src="images/project/linkediniconscout.svg" ></li>
-                    </ul>
+                     <li><a target="_blank" href="https://github.com/alex-ciminillo" ><img class="my-uil" src="images/project/github.svg" ></a></li>
+                     <li><a target="_blank" href="https://www.linkedin.com/in/alexzander-ciminillo/" ><img class="my-uil" src="images/project/linkediniconscout.svg" ></a></li>
+                </ul>
             </div>
           </div>
 
@@ -272,22 +272,23 @@ https://www.tooplate.com/view/2115-marvel
             <div class="contact-form">
               <h2 class="mb-4">Want to hire me? Let's talk</h2>
 
-              <form action="" method="get">
+              <form action="https://postmail.invotes.com/send"
+              method="post" id="email_form">
                 <div class="row">
-                  <div class="col-lg-6 col-12">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
-                  </div>
 
-                  <div class="col-lg-6 col-12">
-                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                  <div class="col-12">
+                    <input type="email" class="form-control" name="subject" placeholder="Email" id="email">
                   </div>
 
                   <div class="col-12">
-                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                    <textarea name="text" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
                   </div>
-
+                  <input type="hidden" name="access_token" value="vn3l8tb3bnvul1504thwvypn" />
+                  <input type="hidden" name="success_url" value="https://alex-ciminillo.github.io/" />
+                  <input type="hidden" name="error_url" value="https://alex-ciminillo.github.io/" />
+   
                   <div class="ml-lg-auto col-lg-5 col-12">
-                    <input type="submit" class="form-control submit-btn" value="Send Button">
+                    <input id="submit_form" type="submit" class="form-control submit-btn" value="Send Button">
                   </div>
                 </div>
               </form>
