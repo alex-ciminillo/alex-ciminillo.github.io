@@ -16,11 +16,12 @@
 
     //send form
     var submitButton = document.getElementById("submit_form");
-    var form = document.getElementById("email_form");
+    var form = document.getElementById("fs-frm");
     form.addEventListener("submit", function (e) {
         setTimeout(function() {
             submitButton.value = "Sending...";
             submitButton.disabled = true;
+            form.reset();
         }, 1);
     });
 

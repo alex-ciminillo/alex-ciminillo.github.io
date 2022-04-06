@@ -272,21 +272,20 @@ https://www.tooplate.com/view/2115-marvel
             <div class="contact-form">
               <h2 class="mb-4">Want to hire me? Let's talk</h2>
 
-              <form action="https://postmail.invotes.com/send"
-              method="post" id="email_form">
+              <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xqkndvyl" method="post">
                 <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <input type="text" class="form-control" name="name" id="full-name" placeholder="Name" >
+                  </div>
 
-                  <div class="col-12">
-                    <input type="email" class="form-control" name="subject" placeholder="Email" id="email">
+                  <div class="col-lg-6 col-12">
+                    <input type="email" class="form-control" name="_replyto" id="email-address" placeholder="Email">
                   </div>
 
                   <div class="col-12">
-                    <textarea name="text" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
                   </div>
-                  <input type="hidden" name="access_token" value="vn3l8tb3bnvul1504thwvypn" />
-                  <input type="hidden" name="success_url" value="https://alex-ciminillo.github.io/" />
-                  <input type="hidden" name="error_url" value="https://alex-ciminillo.github.io/" />
-   
+                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                   <div class="ml-lg-auto col-lg-5 col-12">
                     <input id="submit_form" type="submit" class="form-control submit-btn" value="Send Button">
                   </div>
