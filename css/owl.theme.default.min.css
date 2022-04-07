@@ -15,3 +15,10 @@
     margin: 0 auto;
     margin-bottom: 50px;
 }
+
+.major-icons li {
+    font-size: 100px;
+    padding: 1%;
+    margin: 2%;
+    display: inline-block;
+}
