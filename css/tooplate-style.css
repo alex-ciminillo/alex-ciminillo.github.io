@@ -354,6 +354,14 @@ b, strong {
   line-height: 75px;
 }
 
+.current-yr span:first-child {
+  margin-top: 15px;
+}
+
+.current-yr span {
+  line-height: 20px;
+}
+
 .timeline-info {
   display: inline-block;
   vertical-align: top;
